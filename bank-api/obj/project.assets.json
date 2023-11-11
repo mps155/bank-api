@@ -224,19 +224,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\miche\\.nuget\\packages\\": {}
+    "C:\\Users\\michel.santos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Estudo\\bank-api\\bank-api\\bank-api\\bank-api.csproj",
+      "projectUniqueName": "C:\\Estudo\\bank-api\\bank-api.csproj",
       "projectName": "bank-api",
-      "projectPath": "D:\\Estudo\\bank-api\\bank-api\\bank-api\\bank-api.csproj",
-      "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-      "outputPath": "D:\\Estudo\\bank-api\\bank-api\\bank-api\\obj\\",
+      "projectPath": "C:\\Estudo\\bank-api\\bank-api.csproj",
+      "packagesPath": "C:\\Users\\michel.santos\\.nuget\\packages\\",
+      "outputPath": "C:\\Estudo\\bank-api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\michel.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -244,8 +244,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/streamshopbrasil/_packaging/packages-streamshop/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -287,7 +286,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
