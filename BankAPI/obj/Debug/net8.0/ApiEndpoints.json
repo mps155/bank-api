@@ -1,0 +1,77 @@
+[
+  {
+    "ContainingType": "BankAPI.Controllers.CurrencyController",
+    "Method": "GetCurrencyList",
+    "RelativePath": "Currency",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetCurrencyList"
+  },
+  {
+    "ContainingType": "BankAPI.Controllers.TransferController",
+    "Method": "PostDeposit",
+    "RelativePath": "Transfer/PostDeposit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deposit",
+        "Type": "BankAPI.Models.DepositPayload",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankAPI.Controllers.TransferController",
+    "Method": "PostTransference",
+    "RelativePath": "Transfer/PostTransference",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transference",
+        "Type": "BankAPI.Models.TransferencePayload",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankAPI.Controllers.WalletController",
+    "Method": "GetWallet",
+    "RelativePath": "Wallet/GetWallet/{walletId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "walletId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankAPI.Controllers.WalletController",
+    "Method": "GetWalletList",
+    "RelativePath": "Wallet/GetWalletList/{walletOwner}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "walletOwner",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
